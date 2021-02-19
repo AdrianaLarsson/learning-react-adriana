@@ -38,8 +38,7 @@ const data = [
   {
     id: Math.random(),
     title: "Vändstäd",
-    cleanTimeStart: "13:00",
-    cleantimeEnd: "17:00",
+    
     text: lorem,
     bgColor: colorPrim
   }

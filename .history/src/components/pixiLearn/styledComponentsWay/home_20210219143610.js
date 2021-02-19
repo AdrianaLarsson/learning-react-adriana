@@ -12,8 +12,7 @@ import {
   Item,
   GridArrival,
   ArrivalTitle,
-  ArrivalNrDepatureNrGrid,ArrivalNrDepatureNr
-
+  ArrivalNrDepatureNrGrid
 } from "./homestyles";
 
 
@@ -46,8 +45,9 @@ export default function Home({ boxData }) {
             <ArrivalTitle>Avgångsnr</ArrivalTitle>
           </GridArrival>
           <ArrivalNrDepatureNrGrid>
-          <ArrivalNrDepatureNr>90786</ArrivalNrDepatureNr>
-          <ArrivalNrDepatureNr>90123</ArrivalNrDepatureNr>
+          <ArrivalTimeDeparureTimeItem>10:00</ArrivalTimeDeparureTimeItem>
+          <ArrivalTimeDeparureTimeItem>9:00</ArrivalTimeDeparureTimeItem>
+
           </ArrivalNrDepatureNrGrid>
         </Box>
       ))}

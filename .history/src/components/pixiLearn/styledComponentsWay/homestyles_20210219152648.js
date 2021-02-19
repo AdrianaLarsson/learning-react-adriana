@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: ${px2vw(32)};
+  margin: ${px2vw(25)};
   max-width: 100%;
 
   @media (min-width: 1024px) {
@@ -16,7 +16,7 @@ export const Container = styled.div`
 export const Box = styled.div`
   display: flex;
   width: ${px2vw(320, 320)};
-  min-height: ${px2vw(215, 320)};
+  min-height: ${px2vw(200, 320)};
   flex-direction: column;
   padding: ${px2vw(20)};
   margin: ${px2vw(20)};
@@ -43,7 +43,7 @@ export const ActivityTitle = styled.p`
   text-align: start;
   display: flex;
   justify-content: center;
-  padding: 0.1rem;
+  padding: 0.4rem;
   @media (min-width: 1024px) {
     font-size: 1.5rem;
   }
@@ -117,7 +117,7 @@ export const TrainName = styled.p`
   display: flex;
   justify-content: center;
   @media (min-width: 1024px) {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 `;
 

@@ -1,20 +1,5 @@
 import React from 'react'
-import {
-  Container,
-  TrainName,
-  Box,
-  ArrivalTimeDeparureTimeItem,
-  ActivityTitle,
-  GridArrivalTimeDepartureTime,
-  BoxText,
-  CleanTitle,
-  Grid,
-  Item,
-  GridArrival,
-  ArrivalTitle,
-  ArrivalNrDepatureNrGrid,ArrivalNrDepatureNr
-
-} from "./homestyles";
+import { Container,TrainName, Box, ArrivalTimeDeparureTimeItem, ActivityTitle,GridArrivalTimeDepartureTime, BoxText, CleanTitle, Grid, Item, GridArrival, ArrivalTitle } from "./homestyles";
 
 
 
@@ -45,10 +30,11 @@ export default function Home({ boxData }) {
             <ArrivalTitle>2525</ArrivalTitle>
             <ArrivalTitle>Avgångsnr</ArrivalTitle>
           </GridArrival>
-          <ArrivalNrDepatureNrGrid>
-          <ArrivalNrDepatureNr>90786</ArrivalNrDepatureNr>
-          <ArrivalNrDepatureNr>90123</ArrivalNrDepatureNr>
-          </ArrivalNrDepatureNrGrid>
+               <GridArrivalTimeDepartureTime>
+            <ArrivalTimeDeparureTimeItem>10:00</ArrivalTimeDeparureTimeItem>
+            <TrainName>X2</TrainName>
+            <ArrivalTimeDeparureTimeItem>10:00</ArrivalTimeDeparureTimeItem>
+          </GridArrivalTimeDepartureTime>
         </Box>
       ))}
     </Container>

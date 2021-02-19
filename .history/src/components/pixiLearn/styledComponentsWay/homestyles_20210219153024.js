@@ -117,7 +117,7 @@ export const TrainName = styled.p`
   display: flex;
   justify-content: center;
   @media (min-width: 1024px) {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 `;
 

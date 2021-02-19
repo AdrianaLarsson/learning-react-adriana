@@ -47,7 +47,7 @@ export default function Home({ boxData }) {
           </GridArrival>
           <ArrivalNrDepatureNrGrid>
           <ArrivalNrDepatureNr>90786</ArrivalNrDepatureNr>
-          <ArrivalNrDepatureNr>90123</ArrivalNrDepatureNr>
+          <ArrivalNrDepatureNr>90123</ArrivalTimeDeparureTimeItem>
           </ArrivalNrDepatureNrGrid>
         </Box>
       ))}
