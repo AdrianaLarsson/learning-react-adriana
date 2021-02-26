@@ -68,7 +68,6 @@ export const TrackPosStausTitle = styled.p`
   font-size: 3rem;
   text-align: start;
   display: flex;
-  margin-top: 1em;
   justify-content: center;
   padding: 0.4rem;
   @media (min-width: 1024px) {
@@ -78,10 +77,9 @@ export const TrackPosStausTitle = styled.p`
 export const PosStausTitle= styled.p`
 color: rgb(38, 98, 148);
 font-weight: bold;
-font-size: 2rem;
+font-size: 3rem;
 text-align: start;
 display: flex;
-margin-top: 1em;
 justify-content: center;
 padding: 0.4rem;
 @media (min-width: 1024px) {
@@ -89,20 +87,11 @@ padding: 0.4rem;
 }
 `;
 
-export const ButtonOn = styled.button`
-  background-color: #00AB3B;
-  font-size: 3em;
-  color:white;
-  margin-top: 2em;
-  height: 25px;
-  border-color: #00AB3B;
-  border-radius: 5px;
-`;
 
 export const GridPosStatusTrack = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 50px;
+  grid-gap: 30px;
   @media (min-width: 1024px) {
     font-size: 1.5rem;
   }
@@ -195,8 +184,8 @@ export const BoxText = styled.p`
 
 export const ArrivalNrDepatureNrGrid = styled.div`
 display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-gap: 30px;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 195px;
 @media (min-width: 1024px) {
   font-size: 1.5rem;
 }

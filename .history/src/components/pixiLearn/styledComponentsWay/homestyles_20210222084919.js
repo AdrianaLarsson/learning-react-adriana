@@ -95,7 +95,7 @@ export const ButtonOn = styled.button`
   color:white;
   margin-top: 2em;
   height: 25px;
-  border-color: #00AB3B;
+  padding: 0.20em 1em;
   border-radius: 5px;
 `;
 
@@ -196,7 +196,7 @@ export const BoxText = styled.p`
 export const ArrivalNrDepatureNrGrid = styled.div`
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-grid-gap: 30px;
+grid-gap: 105px;
 @media (min-width: 1024px) {
   font-size: 1.5rem;
 }

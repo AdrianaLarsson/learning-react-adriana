@@ -14,9 +14,7 @@ import {
   ArrivalTitle,
   ArrivalNrDepatureNrGrid,ArrivalNrDepatureNr,
   GridPosStatusTrack,
-  TrackPosStausTitle,
-  PosStausTitle,
-  ButtonOn
+  TrackPosStausTitle
 
 } from "./homestyles";
 
@@ -51,15 +49,11 @@ export default function Home({ boxData }) {
           </GridArrival>
           <ArrivalNrDepatureNrGrid>
           <ArrivalNrDepatureNr>90786</ArrivalNrDepatureNr>
-          <ArrivalNrDepatureNr style={{color: 'black'}}>10 vagnar</ArrivalNrDepatureNr>
           <ArrivalNrDepatureNr>90123</ArrivalNrDepatureNr>
           </ArrivalNrDepatureNrGrid>
           <GridPosStatusTrack>
            <TrackPosStausTitle>Spår</TrackPosStausTitle>
-           <PosStausTitle>Status/Position</PosStausTitle>
-   
           </GridPosStatusTrack>
-          <ButtonOn>Klicka på</ButtonOn>
         </Box>
       ))}
     </Container>

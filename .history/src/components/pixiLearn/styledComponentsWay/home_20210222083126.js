@@ -51,15 +51,13 @@ export default function Home({ boxData }) {
           </GridArrival>
           <ArrivalNrDepatureNrGrid>
           <ArrivalNrDepatureNr>90786</ArrivalNrDepatureNr>
-          <ArrivalNrDepatureNr style={{color: 'black'}}>10 vagnar</ArrivalNrDepatureNr>
           <ArrivalNrDepatureNr>90123</ArrivalNrDepatureNr>
           </ArrivalNrDepatureNrGrid>
           <GridPosStatusTrack>
            <TrackPosStausTitle>Spår</TrackPosStausTitle>
            <PosStausTitle>Status/Position</PosStausTitle>
-   
+          <ButtonOn>Klicka på</Button>
           </GridPosStatusTrack>
-          <ButtonOn>Klicka på</ButtonOn>
         </Box>
       ))}
     </Container>

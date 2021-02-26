@@ -196,7 +196,7 @@ export const BoxText = styled.p`
 export const ArrivalNrDepatureNrGrid = styled.div`
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-grid-gap: 30px;
+grid-gap: 40px;
 @media (min-width: 1024px) {
   font-size: 1.5rem;
 }

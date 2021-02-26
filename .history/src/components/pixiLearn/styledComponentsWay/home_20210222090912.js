@@ -51,7 +51,7 @@ export default function Home({ boxData }) {
           </GridArrival>
           <ArrivalNrDepatureNrGrid>
           <ArrivalNrDepatureNr>90786</ArrivalNrDepatureNr>
-          <ArrivalNrDepatureNr style={{color: 'black'}}>10 vagnar</ArrivalNrDepatureNr>
+          <ArrivalNrDepatureNr style={{color: 'black'}}>1 vagnar</ArrivalNrDepatureNr>
           <ArrivalNrDepatureNr>90123</ArrivalNrDepatureNr>
           </ArrivalNrDepatureNrGrid>
           <GridPosStatusTrack>
